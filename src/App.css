@@ -11,10 +11,7 @@ body {
   font-family: 'DM Sans', Arial, sans-serif;
 }
 
-button,
-input,
-textarea,
-select {
+button, input, textarea, select {
   font-family: inherit;
 }
 
@@ -99,7 +96,8 @@ nav button:hover {
   height: 540px;
   background:
     linear-gradient(90deg, #242344ed, #29244c88),
-    url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1900&q=90') center/cover;
+    url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1900&q=90')
+    center/cover;
   display: flex;
   align-items: center;
   padding: 7%;
@@ -110,7 +108,7 @@ nav button:hover {
   max-width: 650px;
 }
 
-.hero-content>span {
+.hero-content > span {
   color: #c7b5ff;
   font-size: 14px;
   font-weight: 800;
@@ -423,7 +421,7 @@ nav button:hover {
   border-radius: 9px;
 }
 
-.cart-item>div {
+.cart-item > div {
   flex: 1;
 }
 
@@ -517,7 +515,8 @@ nav button:hover {
   padding: 70px 20px;
   background:
     linear-gradient(#252344b8, #252344b8),
-    url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=90') center/cover;
+    url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=90')
+    center/cover;
   display: grid;
   place-items: center;
 }
@@ -539,7 +538,8 @@ nav button:hover {
   padding: 65px 20px;
   background:
     linear-gradient(#242344bb, #242344bb),
-    url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1800&q=90') center/cover;
+    url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1800&q=90')
+    center/cover;
   display: grid;
   place-items: center;
 }
